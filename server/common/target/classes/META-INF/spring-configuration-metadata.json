@@ -1,0 +1,78 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.whu.dhji.config.redis.MyRedisProperties",
+      "name": "spring.redis",
+      "type": "cn.whu.dhji.config.redis.MyRedisProperties"
+    },
+    {
+      "sourceType": "cn.whu.dhji.config.redis.MyRedisProperties",
+      "name": "spring.redis.pool",
+      "sourceMethod": "getPool()",
+      "type": "cn.whu.dhji.config.redis.MyRedisProperties$Pool"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.whu.dhji.config.redis.MyRedisProperties",
+      "defaultValue": 0,
+      "name": "spring.redis.database",
+      "description": "用于SHIRO缓存的REDIS数据库编号",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.whu.dhji.config.redis.MyRedisProperties",
+      "defaultValue": "localhost",
+      "name": "spring.redis.host",
+      "description": "Redis server host.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.whu.dhji.config.redis.MyRedisProperties",
+      "name": "spring.redis.password",
+      "description": "Login password of the redis server.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.whu.dhji.config.redis.MyRedisProperties",
+      "defaultValue": 6379,
+      "name": "spring.redis.port",
+      "description": "Redis server port.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.whu.dhji.config.redis.MyRedisProperties",
+      "defaultValue": 1,
+      "name": "spring.redis.secondary-database",
+      "description": "用于一般数据缓存的REDIS数据库编号",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.whu.dhji.config.redis.MyRedisProperties",
+      "defaultValue": 0,
+      "name": "spring.redis.session-expire",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.whu.dhji.config.redis.MyRedisProperties",
+      "defaultValue": false,
+      "name": "spring.redis.ssl",
+      "description": "Enable SSL.",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "cn.whu.dhji.config.redis.MyRedisProperties",
+      "defaultValue": 0,
+      "name": "spring.redis.timeout",
+      "description": "Connection timeout in milliseconds.",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.whu.dhji.config.redis.MyRedisProperties",
+      "name": "spring.redis.url",
+      "description": "Redis url, which will overrule host, port and password if set.",
+      "type": "java.lang.String"
+    }
+  ]
+}

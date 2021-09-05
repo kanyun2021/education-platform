@@ -1,0 +1,28 @@
+#开发环境配置，用于代码开发和调试
+spring:
+#  activiti:
+#    database-schema-update: drop-create
+
+  # mysql DATABASE CONFIG
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/education-platform?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: ab31415926ab
+    # driverClass: com.mysql.jdbc.Driver
+
+
+  redis:
+    database: 0
+#    secondary-database: 0
+    host: 127.0.0.1
+    port: 6379
+#    timeout: 10000
+
+#
+#  data:
+#    cassandra:
+#      cluster-name: Test Cluster
+#      keyspace-name: mongolia
+#      contact-points: 127.0.0.1
+#      port: 9042
+#      schema-action: create_if_not_exists
